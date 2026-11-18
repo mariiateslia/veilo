@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Veilo</title><link rel="stylesheet" href="popup.css"><script src="popup.js" defer></script></head>
+<body>
+<header class="header"><a class="brand" href="help.html" target="_blank" aria-label="Veilo help"><img src="assets/mark.svg" alt="" width="25" height="25">Veilo<span class="beta">BETA</span></a><span class="local"><span></span> On-device</span></header>
+<main>
+  <section class="hero" aria-label="Page privacy preview"><div class="hero-top"><span>LESS TO SEE. MORE TO SHARE.</span><span class="spark">✳</span></div><h1>Your screen.<br>Your boundaries.</h1><div class="hero-bottom"><div class="dot-count" id="count" aria-label="0 elements hidden">00</div><div><strong>elements hidden</strong><span id="site">This tab</span></div><span class="hero-orbit" aria-hidden="true">◌</span></div></section>
+  <div class="mode-row" role="group" aria-label="Hide style"><button id="blur" class="mode selected" aria-pressed="true"><span class="blur-glyph" aria-hidden="true">•••</span> Blur</button><button id="cover" class="mode" aria-pressed="false"><span class="cover-glyph" aria-hidden="true"></span> Cover</button></div>
+  <button id="select" class="select-button"><span class="crosshair" aria-hidden="true">⌖</span><span>Select on page</span><span aria-hidden="true">↗</span></button>
+  <section class="control-card"><div class="range-label"><label for="strength">Blur strength</label><output id="strengthValue" for="strength">12 px</output></div><input id="strength" type="range" min="4" max="24" value="12" step="1"><div class="range-ends"><span>Soft</span><span>Strong</span></div></section>
+  <div class="actions"><button id="undo" disabled>↶ &nbsp;Undo</button><button id="pause" disabled>Pause</button><button id="clear" disabled>Show all</button></div>
+  <button id="screenshot" class="screenshot"><span aria-hidden="true">▣</span><span>Edit a screenshot<small>Capture this tab or open an image</small></span><span aria-hidden="true">↗</span></button>
+  <p id="status" class="status" role="status" aria-live="polite">Select an element to hide it. Esc finishes selection.</p>
+</main>
+<footer><span>No account. No cloud.</span><a href="help.html" target="_blank">How it works ↗</a></footer>
+</body></html>

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Veilo \u2014 share a little less",
+  "version": "0.1.1",
+  "description": "Blur or cover elements before sharing your screen. Local screenshot editing. No accounts, subscriptions, or servers.",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Veilo",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "32": "assets/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'; img-src 'self' data: blob:; style-src 'self';"
+  }
+}
