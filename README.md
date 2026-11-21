@@ -2,7 +2,7 @@
 
 **Your screen. Your boundaries.** A free, local screenshot editor and Chrome extension for sharing a little less.
 
-[Use Veilo](https://mariiateslia.github.io/veilo/) · [Screenshot editor](https://mariiateslia.github.io/veilo/editor.html) · [Chrome beta installation](https://mariiateslia.github.io/veilo/install.html) · [Инструкция на русском](https://mariiateslia.github.io/veilo/install-ru.html)
+[Use Veilo](https://mariiateslia.github.io/veilo/) · [Screenshot editor](https://mariiateslia.github.io/veilo/editor.html) · [Chrome beta installation](https://mariiateslia.github.io/veilo/install.html)
 
 ![Veilo screenshot](site/assets/social.png)
 
@@ -42,7 +42,7 @@ Open `http://localhost:8770/`. To test the GitHub Pages subpath, serve the direc
 | Folder | Purpose |
 | --- | --- |
 | `extension/` | Installable Manifest V3 extension, shared mask effects, and shared image editor |
-| `site/` | Landing page, scoped fictional demo, web editor, bilingual installation, privacy |
+| `site/` | Landing page, scoped fictional demo, web editor, installation guide, privacy |
 | `scripts/` | Static build, ZIP packaging, release validation |
 | `tests/` | DOM behavior and real PNG pixel regression checks |
 | `demo/` | Local extension testing harness and fictional fixture; never included on the public site or in the installer |

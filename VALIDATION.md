@@ -14,3 +14,10 @@ November 17, 2026. Tested build: website, shared editor/effects, and installable
 - Build check validates relative links under a project subpath, installer folder layout and runtime assets, version substitution, and absence of Chrome adapters/network request APIs in public JavaScript.
 
 Live page effects are cosmetic. No claim of secure redaction for blur, protection against malicious page scripts, cross-browser coverage, or dynamic-page mask persistence is made.
+
+## English-only documentation — November 20, 2026
+
+- Website and repository documentation use English only.
+- The installation guide no longer offers a language switch.
+- The legacy install-ru.html address redirects to install.html, with an English fallback link.
+- README-RU.md remains as an English pointer to the main README so existing links stay useful.
