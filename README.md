@@ -50,7 +50,7 @@ Open `http://localhost:8770/`. To test the GitHub Pages subpath, serve the direc
 
 The build reads the version and minimum Chrome version from `extension/manifest.json`. Public assets are copied from the extension. Chrome capture transport stays in `editor-capture.js`, which is not shipped to the website. The site demo uses a scoped adapter over the same mask effects, without a Chrome API shim.
 
-Pushes to `main` run tests, build and validate the installer, then publish `dist/` through GitHub Actions to GitHub Pages. Enable Pages with **GitHub Actions** as the publishing source. No secrets or paid services are needed.
+Pull requests run tests, build and validate the installer without publishing. Pushes to `main` run the same checks, then publish `dist/` through GitHub Actions to GitHub Pages. Enable Pages with **GitHub Actions** as the publishing source. No secrets or paid services are needed.
 
 ## License and assets
 
